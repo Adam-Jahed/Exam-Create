@@ -20,7 +20,7 @@ from db import (
 )
 from theme import theme_css
 
-MODEL = "gpt-5.4"
+MODEL = "gpt-4o-mini"
 
 client = OpenAI(
     api_key=os.environ["AI_INTEGRATIONS_OPENAI_API_KEY"],
